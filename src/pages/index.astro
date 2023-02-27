@@ -1,5 +1,8 @@
 ---
-import Greeting from '../components/Greeting.jsx';
+//import Greeting from '../components/Greeting.jsx';
+import App from '../components/App.jsx';
+import App2 from '../components/App2.jsx';
+import App3 from '../components/App3.jsx';
 ---
 
 <html lang="en">
@@ -12,6 +15,8 @@ import Greeting from '../components/Greeting.jsx';
 	</head>
 	<body>
 		<h1>Astro</h1>
-		<Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
+		<! -- Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari","yo blood"]} / -->
+		<! -- App3 client:load/ -->
+		<App3 client:load/>
 	</body>
 </html>
